@@ -1,2 +1,3 @@
-# vue-polyfilled-dialog
-A native dialog element with lazy loaded polyfill packaged as a Vue component.
+# Polyfilled dialog
+
+This Vue component allows you to replace any instance of `<dialog>` with `<polyfilled-dialog>` to easily polyfill dialog functionality into all modern browsers. It uses the [polyfill provided by the Google Chrome team](https://github.com/GoogleChrome/dialog-polyfill).

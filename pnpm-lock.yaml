@@ -1,0 +1,10 @@
+dependencies:
+  dialog-polyfill: 0.5.0
+lockfileVersion: 5.1
+packages:
+  /dialog-polyfill/0.5.0:
+    dev: false
+    resolution:
+      integrity: sha512-fOj68T8KB6UIsDFmK7zYbmORJMLYkRmtsLM1W6wbCVUWu4Hdcud5bqbvuueTxO84JXtK9HcpCHV9vNwlWUdCIw==
+specifiers:
+  dialog-polyfill: ^0.5.0

@@ -1,0 +1,32 @@
+{
+	"name": "@jamescoyle/vue-polyfilled-dialog",
+	"version": "0.1.0",
+	"description": "This Vue component allows you to replace any instance of `<dialog>` with `<polyfilled-dialog>` to easily polyfill dialog functionality into all modern browsers. It uses the [polyfill provided by the Google Chrome team](https://github.com/GoogleChrome/dialog-polyfill).",
+	"keywords": [
+		"component",
+		"dialog",
+		"polyfill",
+		"vue"
+	],
+	"homepage": "https://github.com/JamesCoyle/vue-polyfilled-dialog#readme",
+	"bugs": {
+		"url": "https://github.com/JamesCoyle/vue-polyfilled-dialog/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JamesCoyle/vue-polyfilled-dialog.git"
+	},
+	"license": "MIT",
+	"author": "James Coyle",
+	"main": "lib/polyfilled-dialog.vue",
+	"directories": {
+		"lib": "lib"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"dialog-polyfill": "^0.5.0"
+	},
+	"devDependencies": {}
+}
