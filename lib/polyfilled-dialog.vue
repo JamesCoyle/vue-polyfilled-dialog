@@ -1,5 +1,5 @@
 <template>
-	<dialog><slot></slot></dialog>
+	<dialog v-bind="$attributes" v-on="$listeners"><slot></slot></dialog>
 </template>
 
 <script>
