@@ -1,6 +1,6 @@
 {
 	"name": "@jamescoyle/vue-polyfilled-dialog",
-	"version": "0.1.3",
+	"version": "0.1.4",
 	"description": "This Vue component allows you to replace any instance of `<dialog>` with `<polyfilled-dialog>` to easily polyfill dialog functionality into all modern browsers. It uses the [polyfill provided by the Google Chrome team](https://github.com/GoogleChrome/dialog-polyfill).",
 	"keywords": [
 		"component",

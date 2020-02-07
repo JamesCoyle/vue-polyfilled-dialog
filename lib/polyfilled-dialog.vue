@@ -3,30 +3,12 @@
 </template>
 
 <script>
+import DialogPolyfill from 'dialog-polyfill'
+
 export default {
-	methods: {
-		get open() {
-			return this.$el.open
-		},
-
-		showModal() {
-			this.$el.showModal()
-		},
-
-		show() {
-			this.$el.show()
-		},
-
-		close() {
-			this.$el.close()
-		},
-	},
-
-	created() {
+	mounted() {
 		if (typeof window.HTMLDialogElement === 'undefined') {
-			import('dialog-polyfill').then((polyfill) => {
-				polyfill.default.registerDialog(this.$el)
-			})
+			DialogPolyfill.registerDialog(this.$el)
 		}
 	},
 }
